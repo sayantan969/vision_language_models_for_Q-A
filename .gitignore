@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenv / Conda env
+venv/
+env/
+.venv/
+env.bak/
+.pt/                # some people name their env 'pt'
+/anaconda3/
+pip-log.txt
+
+# Byte-compiled / caches
+.python-version
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and runtime
+logs/
+*.log
+*.sqlite3
+*.pid
+
+# Dataset / data / generated files (DO NOT upload)
+easy_vqa_data/
+easy_vqa/data/
+data/
+datasets/
+**/images/
+*.npz
+*.npy
+
+# Model checkpoints / weights (DO NOT upload unless you want to)
+checkpoints/
+saved_models/
+models/
+*.pt
+*.pth
+*.ckpt
+*.model
+
+# Experiment tracking & caches
+wandb/
+.mlflow/
+tensorboard/
+results/
+
+# Secrets / env files
+.env
+.env.*
+secrets/
+credentials.json
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+*.whl
+
+# Misc
+*.swp
