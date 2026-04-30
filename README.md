@@ -14,7 +14,7 @@ This project solves this by proposing a novel, lightweight adaptation of the BLI
 
 ## 🧠 Model Architecture
 
-![Model Architecture](architecture.jpeg)
+![Model Architecture](images/architecture.jpeg)
 
 The architecture bridges visual and textual modalities using a highly efficient fusion strategy:
 
